@@ -3,11 +3,13 @@ margin: 0px;
 padding: 0px;
 box-sizing: border-box;
 }
+
 h1{
-  width: 400px;
+ width: 400px;
  margin: 20px;
-    text-align: center;
+ text-align: center;
 }
+
 div {
   width: 100px;
   height: 100px;
@@ -15,7 +17,7 @@ div {
   position: relative;
   animation-name: judantis_kvadratas;
   animation-duration: 4s;
-    animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 @keyframes judantis_kvadratas {
@@ -24,4 +26,4 @@ div {
   50%  {background-color:blue; left:200px; top:200px;}
   75%  {background-color:green; left:0px; top:200px;}
   100% {background-color:red; left:0px; top:0px;}
-}.
+}
